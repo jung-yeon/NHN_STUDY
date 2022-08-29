@@ -40,3 +40,4 @@ public class MyNaturalNumber implements MyNumber{
         return new MyNaturalNumber(divded);
     }
 }
+

@@ -1,9 +1,9 @@
 public class MyInteger extends MyRationalNumber {
     private int number;
-    public MyInteger(int number){
-        super(number);
+    public MyInteger(){
+        super();
     }
-    public MyInteger(MyInteger number){
+    public MyInteger(int number){
         super(number);
     }
     int getValue(){

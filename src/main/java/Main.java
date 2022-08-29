@@ -9,6 +9,7 @@ public class Main {
         MyRationalNumber rn3 = rn1.plus(rn2);
         System.out.println(rn1 + " + " + rn2 + " = " + rn3);
         MyRationalNumber rn4 = rn1.minus(rn2);
+
         System.out.println(rn1 + " - " + rn2 + " = " + rn4);
         MyRationalNumber rn5 = rn1.multipliedBy(rn2);
         System.out.println(rn1 + " * " + rn2 + " = " + rn5);
